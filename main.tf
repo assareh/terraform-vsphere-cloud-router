@@ -75,7 +75,15 @@ resource "vsphere_virtual_machine" "router" {
         domain    = "test.internal"
       }
       network_interface {
-        ipv4_address = "192.168.10.107"
+        ipv4_address = "192.168.10.101"
+        ipv4_netmask = 24
+      }
+      network_interface {
+        ipv4_address = "192.168.10.102"
+        ipv4_netmask = 24
+      }
+      network_interface {
+        ipv4_address = "192.168.10.103"
         ipv4_netmask = 24
       }
       ipv4_gateway = "192.168.10.1"
