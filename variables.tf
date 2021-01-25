@@ -81,7 +81,7 @@ variable "num_cpus" {
 variable "memory" {
   type        = number
   description = "Specify the amount of memory in MB to assign"
-  default     = 1024
+  default     = 4096
 }
 
 # disk size

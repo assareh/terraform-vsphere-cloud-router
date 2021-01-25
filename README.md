@@ -24,5 +24,5 @@ Your Terraform workspace will also require vCenter credentials.
 ## Defaults
 * Cisco CSR1000v
 * 1 CPU
-* 1 GB RAM
+* 4 GB RAM
 * 8 GB storage
